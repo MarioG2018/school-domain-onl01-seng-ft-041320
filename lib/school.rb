@@ -20,7 +20,6 @@ class School
   
   def sort()
     self.roster.each{|grade,students|students.sort!}
-    end
   end
   
   
