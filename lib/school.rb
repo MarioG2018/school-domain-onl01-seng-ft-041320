@@ -19,7 +19,7 @@ class School
   end
   
   def sort(name)
-    self.roster.each {|grade,students|students.sort}
+    self.roster.each {|grade,students|students.sort!}
   end
   
   
